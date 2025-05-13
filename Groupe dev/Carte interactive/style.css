@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .map {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .zone {
+    position: absolute;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+  .zone:hover {
+    border-color: red;
+  }
+  #info {
+    margin-top: 20px;
+    font-size: 18px;
+  }
